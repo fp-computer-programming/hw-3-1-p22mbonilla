@@ -1,12 +1,16 @@
 # Author MB 09/28/2021
 
-num = int(input("enter a number"))
+team1 = int(input("how many wins did team 1 have"))
+team1_2 = int(input("how many ties did team 1 have"))
 
-if num % 2 == 0:
-    print("it is divisble by 2")
+team2 = int(input("how many wins did team 2 have"))
+team2_2 = int(input("how many ties did team 2 have"))
 
-if num % 3 == 0:
-    print("it is divisble by 3")
+total_team1 = (3 * team1) + team1_2
+total_team2 = (3 * team2) + team2_2
 
-if num % 5 == 0:
-    print("it is divisble by 5")
+total_team1 = str(total_team1)
+total_team2 = str(total_team2)
+
+print("team one got" + " " + total_team1 + " " "points")
+print("team two got" + " " + total_team2 + " " + "points")
