@@ -7,6 +7,6 @@ total_card = card1 + card2
 
 if total_card > 21:
     print("you bust")
-else:
-    total_card < 21
+
+if total_card < 21:
     print("you are safe")
